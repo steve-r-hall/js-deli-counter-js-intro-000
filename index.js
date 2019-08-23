@@ -7,7 +7,7 @@ function takeANumber(lincnt, custname) {
 
 function nowServing(katzDeli) {
   var lit2;
-  if (katzDeli.length = 0) {
+  if (katzDeli.length === 0) {
     lit2 = "There is nobody waiting to be served!"
   }
   else {
@@ -19,7 +19,7 @@ function nowServing(katzDeli) {
 
 function currentLine(katzDeli) {
   var lit3;
-  if (katzDeli.length = 0) {
+  if (katzDeli.length === 0) {
     lit3 = "The line is currently empty."
   }
   else {
