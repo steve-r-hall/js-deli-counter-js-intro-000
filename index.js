@@ -26,7 +26,8 @@ function currentLine(katzDeli) {
     lit3 = "The line is currently: "
     var pos = 1
     for (let occ=0; occ<katzDeli.length; occ++) {
-      lit3 = lit3 + ', ' + pos + ' ' + katzDeli[occ];
+      if (pos > 1) {lit3 = lit3 + ','};
+      lit3 = lit3 + ' + pos + '.' + katzDeli[occ];
       pos = pos + 1
     }
   }
