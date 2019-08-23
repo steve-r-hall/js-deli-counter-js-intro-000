@@ -1,6 +1,6 @@
 function takeANumber(katzDeli, custname) {
   var pos = katzDeli.length + 1;
-  var lit1 = "Welcome, " + custname + ". you are number " + pos + " in line.";
+  var lit1 = "Welcome, " + custname + ". You are number " + pos + " in line.";
   katzDeli.push(custname);
   return lit1
 }
