@@ -12,7 +12,7 @@ function nowServing(katzDeli) {
   }
   else {
     lit2 = katzDeli[0];
-    katzDeli.shift();
+    katzDeli= katzDeli.slice(1, katzDeli.length - 1)
    }
   return lit2
 }
