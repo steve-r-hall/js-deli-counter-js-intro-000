@@ -11,7 +11,7 @@ function nowServing(katzDeli) {
     lit2 = "There is nobody waiting to be served!"
   }
   else {
-    lit2 = katzDeli[0];
+    lit2 = "Currently serving " + katzDeli[0];
     katzDeli= katzDeli.slice(1, katzDeli.length - 1)
    }
   return lit2
