@@ -2,7 +2,9 @@ function takeANumber(lincnt, custname) {
   var pos = lincnt + 1;
   var lit1 = "Welcome " + custname + ", you are number " + pos + " in the queue";
   katzDeli.push(custname);
+  return lit1
 }
+
 function nowServing(katzDeli) {
   var lit2;
   if (katzDeli.length = 0) {
@@ -14,6 +16,7 @@ function nowServing(katzDeli) {
    }
   return lit2
 }
+
 function currentLine(katzDeli) {
   var lit3;
   if (katzDeli.length = 0) {
