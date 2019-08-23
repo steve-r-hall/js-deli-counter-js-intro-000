@@ -1,6 +1,6 @@
 function takeANumber(katzDeli, custname) {
   var pos = katzDeli.length + 1;
-  var lit1 = "Welcome " + custname + ", you are number " + pos + " in the queue";
+  var lit1 = "Welcome, " + custname + ". you are number " + pos + " in the line.";
   katzDeli.push(custname);
   return lit1
 }
@@ -12,7 +12,7 @@ function nowServing(katzDeli) {
   }
   else {
     lit2 = "Currently serving " + katzDeli[0] + '.';
-    katzDeli= katzDeli.slice(1, katzDeli.length - 1)
+    katzDeli.shift()
    }
   return lit2
 }
