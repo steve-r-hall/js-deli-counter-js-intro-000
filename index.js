@@ -1,5 +1,5 @@
 function takeANumber(katzDeli, custname) {
-  var pos = katzdeli.length + 1;
+  var pos = katzDeli.length + 1;
   var lit1 = "Welcome " + custname + ", you are number " + pos + " in the queue";
   katzDeli.push(custname);
   return lit1
